@@ -1,8 +1,5 @@
 # bioc3301_50k
 
-The first 50,000 sequences of four soil samples from the 2015-2016 MiSeq sequencing run. Created redirecting the output of `head -n 200000` (each sequence within a fastq file takes up four lines).
+The 16S rRNA variable region 4 was sequenced of 8 soil samples collected from Gordon Square Garden in London in 2017.
 
-To replace 'old Mac' newline characters `\r` with the correct newline characters `/n`
-```bash
-tr '\r' '\n' <build_test.sh >build_test_nocr.sh
-```
+This repository contains 50,000 randomly selected sequences from this Illumina MiSeq sequencing run.
